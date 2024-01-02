@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="src/imagens/bg-desktop.jpg" type="image/x-icon">
+    <title>Projeto X-Men - DevQuest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Titulo da página</h1>
+    <header class="cabecalho">
+        <img src="src/image/logo.svg" alt="logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem" id="ciclope">
+                    <img src="src/image/card-ciclope.jpg" alt="Ciclope">
+                </li>
+                <li class="personagem">
+                    <img src="src/image/card-jean-grey.jpg" alt="Jean Grey">
+                </li>
+                <li class="personagem">
+                    <img src="src/image/card-lince-negra.jpg" alt="Lince Negra">
+                </li>
+                <li class="personagem">
+                    <img src="src/image/card-magneto.jpg" alt="Magneto">
+                </li>
+                <li class="personagem">
+                    <img src="src/image/card-noturno.jpg" alt="Noturno">
+                </li>
+                <li class="personagem">
+                    <img src="src/image/card-tempestade.jpg" alt="Tempestade">
+                </li>
+                <li class="personagem">
+                    <img src="src/image/card-vampira.jpg" alt="Vampira">
+                </li>
+                <li class="personagem">
+                    <img src="src/image/card-wolverine.jpg" alt="Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/image/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar raajadas ópticas
+                    por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
